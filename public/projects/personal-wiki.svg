@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Inter, Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a7a5c"/>
+    </marker>
+  </defs>
+  <rect width="800" height="500" fill="#f6f1e7"/>
+
+  <!-- Notes stack -->
+  <g transform="translate(70 150)">
+    <rect x="16" y="-14" width="130" height="170" rx="6" fill="#fff" stroke="#d8cdb8" transform="rotate(-6 80 80)"/>
+    <rect x="8" y="-6" width="130" height="170" rx="6" fill="#fff" stroke="#d8cdb8" transform="rotate(3 80 80)"/>
+    <rect x="0" y="0" width="130" height="170" rx="6" fill="#fff" stroke="#b9ab90"/>
+    <rect x="18" y="22" width="70" height="8" rx="4" fill="#3b3428"/>
+    <rect x="18" y="46" width="94" height="6" rx="3" fill="#cfc4ae"/>
+    <rect x="18" y="62" width="84" height="6" rx="3" fill="#cfc4ae"/>
+    <rect x="18" y="78" width="94" height="6" rx="3" fill="#e6b84f"/>
+    <rect x="18" y="94" width="60" height="6" rx="3" fill="#cfc4ae"/>
+    <rect x="18" y="110" width="88" height="6" rx="3" fill="#e6b84f"/>
+    <rect x="18" y="126" width="74" height="6" rx="3" fill="#cfc4ae"/>
+  </g>
+
+  <!-- Magnifier -->
+  <g transform="translate(330 175)">
+    <circle cx="50" cy="50" r="42" fill="#fff" stroke="#3b3428" stroke-width="8"/>
+    <line x1="80" y1="80" x2="118" y2="118" stroke="#3b3428" stroke-width="12" stroke-linecap="round"/>
+    <rect x="28" y="38" width="44" height="6" rx="3" fill="#e6b84f"/>
+    <rect x="28" y="54" width="34" height="6" rx="3" fill="#e6b84f"/>
+  </g>
+
+  <!-- Laptop with chat -->
+  <g transform="translate(540 130)">
+    <rect x="0" y="0" width="200" height="140" rx="10" fill="#3b3428"/>
+    <rect x="10" y="10" width="180" height="120" rx="4" fill="#fff"/>
+    <rect x="22" y="24" width="120" height="26" rx="13" fill="#efe7d6"/>
+    <rect x="34" y="34" width="80" height="6" rx="3" fill="#8a7a5c"/>
+    <rect x="58" y="62" width="120" height="52" rx="13" fill="#3b3428"/>
+    <rect x="70" y="74" width="84" height="6" rx="3" fill="#fff"/>
+    <rect x="70" y="88" width="56" height="6" rx="3" fill="#fff"/>
+    <rect x="132" y="86" width="30" height="12" rx="3" fill="#e6b84f"/>
+    <path d="M-16 140 H216 L200 160 H0 Z" fill="#5a5040"/>
+  </g>
+
+  <!-- Arrows -->
+  <path d="M215 235 C 260 225, 290 225, 318 228" fill="none" stroke="#8a7a5c" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#a)"/>
+  <path d="M465 235 C 495 228, 510 222, 528 218" fill="none" stroke="#8a7a5c" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#a)"/>
+
+  <!-- Labels -->
+  <g font-size="18" fill="#3b3428" text-anchor="middle" font-family="Georgia, serif">
+    <text x="135" y="360">My notes</text>
+    <text x="400" y="360">Find the right passages</text>
+    <text x="640" y="360">Local model answers,</text>
+    <text x="640" y="384">with citations</text>
+  </g>
+
+  <!-- Offline badge -->
+  <g transform="translate(330 420)">
+    <rect width="140" height="34" rx="17" fill="none" stroke="#3b3428"/>
+    <text x="70" y="22" text-anchor="middle" font-size="14" fill="#3b3428" letter-spacing="1.5">RUNS OFFLINE</text>
+  </g>
+</svg>

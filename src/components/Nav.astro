@@ -1,0 +1,21 @@
+---
+import { nav, site } from '../site.config';
+
+const path = Astro.url.pathname;
+// "/" is active only on the home page. Other items are active on their sub-pages too.
+const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+---
+<header class="site-header">
+  <a class="logo" href="/">{site.name}</a>
+  <nav aria-label="Main">
+    <ul>
+      {nav.map((item) => (
+        <li>
+          <a href={item.href} class={isActive(item.href) ? 'active' : undefined} aria-current={isActive(item.href) ? 'page' : undefined}>
+            {item.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+</header>

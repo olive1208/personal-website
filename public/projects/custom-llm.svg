@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Inter, Arial, Helvetica, sans-serif" fill="#111">
+  <rect width="800" height="500" fill="#fff"/>
+  <text x="50" y="62" font-family="Georgia, serif" font-size="30">What comes after "the customer"?</text>
+  <text x="50" y="92" font-size="15" fill="#666">The model's chance for each next word, before and after training</text>
+
+  <!-- Legend -->
+  <rect x="520" y="110" width="14" height="14" fill="#c9c9c9"/>
+  <text x="542" y="122" font-size="14" fill="#555">Before</text>
+  <rect x="620" y="110" width="14" height="14" fill="#111"/>
+  <text x="642" y="122" font-size="14" fill="#555">After</text>
+
+  <!-- Scale: 0% at x=190, 20% at x=730 (27 px per 1%) -->
+  <g font-size="16">
+    <text x="175" y="167" text-anchor="end">reviewed</text>
+    <rect x="190" y="150" width="19" height="9" fill="#c9c9c9"/>
+    <rect x="190" y="161" width="481" height="13" fill="#111"/>
+    <text x="680" y="172" font-size="13" fill="#555">17.8%</text>
+
+    <text x="175" y="215" text-anchor="end">recommended</text>
+    <rect x="190" y="198" width="16" height="9" fill="#c9c9c9"/>
+    <rect x="190" y="209" width="462" height="13" fill="#111"/>
+    <text x="661" y="220" font-size="13" fill="#555">17.1%</text>
+
+    <text x="175" y="263" text-anchor="end">ordered</text>
+    <rect x="190" y="246" width="16" height="9" fill="#c9c9c9"/>
+    <rect x="190" y="257" width="456" height="13" fill="#111"/>
+    <text x="655" y="268" font-size="13" fill="#555">16.9%</text>
+
+    <text x="175" y="311" text-anchor="end">selected</text>
+    <rect x="190" y="294" width="22" height="9" fill="#c9c9c9"/>
+    <rect x="190" y="305" width="440" height="13" fill="#111"/>
+    <text x="639" y="316" font-size="13" fill="#555">16.3%</text>
+
+    <text x="175" y="359" text-anchor="end">compared</text>
+    <rect x="190" y="342" width="16" height="9" fill="#c9c9c9"/>
+    <rect x="190" y="353" width="432" height="13" fill="#111"/>
+    <text x="631" y="364" font-size="13" fill="#555">16.0%</text>
+
+    <text x="175" y="407" text-anchor="end">returned</text>
+    <rect x="190" y="390" width="22" height="9" fill="#c9c9c9"/>
+    <rect x="190" y="401" width="386" height="13" fill="#111"/>
+    <text x="585" y="412" font-size="13" fill="#555">14.3%</text>
+
+    <text x="175" y="455" text-anchor="end">the</text>
+    <rect x="190" y="438" width="22" height="9" fill="#c9c9c9"/>
+    <rect x="190" y="449" width="3" height="13" fill="#111"/>
+    <text x="202" y="460" font-size="13" fill="#555">0.1%</text>
+  </g>
+  <line x1="190" y1="140" x2="190" y2="470" stroke="#111"/>
+</svg>

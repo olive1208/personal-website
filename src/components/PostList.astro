@@ -1,0 +1,20 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { formatDate } from '../lib';
+
+interface Props {
+  posts: CollectionEntry<'writing'>[];
+  showCategory?: boolean;
+}
+const { posts, showCategory = false } = Astro.props;
+---
+<ul class="post-list">
+  {posts.map((post) => (
+    <li>
+      <a href={`/writing/${post.id}/`}>{post.data.title}</a>
+      <span class="meta">
+        {formatDate(post.data.date)}{showCategory && ` · ${post.data.category}`}
+      </span>
+    </li>
+  ))}
+</ul>
