@@ -6,7 +6,11 @@ category: Physical AI
 
 A slide deck I made for a talk at our Physical AI study group at Berkeley Haas. It walks through what a humanoid robot is made of, what each part costs, who makes the parts, and two open questions: how far cost can fall, and whether building parts in-house is the moat.
 
-**[Open the slides →](/talks/humanoid-hardware-101.html)**
+<div class="deck-embed">
+  <iframe src="/talks/humanoid-hardware-101.html" title="Humanoid Hardware 101 slides" loading="lazy" allowfullscreen></iframe>
+  <a class="deck-full" href="/talks/humanoid-hardware-101.html" target="_blank" rel="noopener">Full screen ↗</a>
+</div>
+<p class="deck-hint">Click the right or left side of a slide to move forward or back. <a href="/talks/humanoid-hardware-101.html" target="_blank" rel="noopener">Open the slides in a new tab ↗</a></p>
 
 What's inside:
 
@@ -15,4 +19,4 @@ What's inside:
 - **Global supply chain:** who leads each part, by region
 - **Open questions:** payback economics for a humanoid in a US factory, and vertical integration
 
-Use the arrow keys or click to move between slides. Figures are analyst estimates as of October 2026; sources are on each slide.
+Figures are analyst estimates as of October 2026; sources are on each slide.
