@@ -10,6 +10,10 @@ That makes sense. LLMs got a free start from internet data. Robots didn't. Scali
 
 In this gold rush, data companies are the first to make money. But how long does that last, and what's the long-term moat? Here's where my thinking has landed so far.
 
+Here's a quick map of the players, from teleop on the left to internet video on the right.
+
+![Market map of robot training data companies, by data type (teleoperation, handheld and wearables, egocentric data, simulation and web video) and type of company (independent data factories, data platforms moving in from LLMs, model labs collecting in-house, open datasets, and tooling and data APIs)](/writing/robot-data-market-map.png)
+
 ## 1. Do we still need to collect everything?
 
 The world is huge. Multiply skills by tasks by environments and the data you'd need explodes. For a while the plan was to collect everything, but no single company can do that. The industry has settled on a data pyramid: about a million hours of human first-person video, tens of thousands of hours of UMI data, and a few hours of teleop for the last mile. Tactile and force data is barely in the mix yet.
