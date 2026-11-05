@@ -12,7 +12,12 @@ In this gold rush, data companies are the first to make money. But how long does
 
 Here's a quick map of the players, from teleop on the left to internet video on the right.
 
-![Market map of robot training data companies, by data type (teleoperation, handheld and wearables, egocentric data, simulation and web video) and type of company (independent data factories, data platforms moving in from LLMs, model labs collecting in-house, open datasets, and tooling and data APIs)](/writing/robot-data-market-map.png)
+<figure class="wide-figure">
+  <a href="/writing/robot-data-market-map.png" target="_blank" rel="noopener" aria-label="Open the market map at full size in a new tab">
+    <img src="/writing/robot-data-market-map.png" alt="Market map of robot training data companies, by data type (teleoperation, handheld and wearables, egocentric data, simulation and web video) and type of company (independent data factories, data platforms moving in from LLMs, model labs collecting in-house, open datasets, and tooling and data APIs)" width="3012" height="1632">
+  </a>
+  <figcaption>Click the map to open it at full size ↗</figcaption>
+</figure>
 
 ## 1. Do we still need to collect everything?
 
