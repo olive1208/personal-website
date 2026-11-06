@@ -23,4 +23,4 @@ export const contact = {
 
 // Order of sections on the Writing & Learning page.
 // Any category not listed here still shows up, after these, in A to Z order.
-export const categoryOrder = ['Physical AI', 'MBA Life'];
+export const categoryOrder = ['Physical AI', 'Life Updates', 'MBA Life'];
