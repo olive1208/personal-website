@@ -7,7 +7,7 @@ home: false
 
 My grandma passed away today. She was 93. She had been very weak for over a year, but in the end she left peacefully, without much pain.
 
-She is the first family member I have ever lost. When I heard the news, I cried. The funeral will be in two days. I am so sorry I can't be there to say goodbye.
+She is the first family member I have ever lost. When I heard the news, I couldn't stop crying. The funeral will be in two days. I am so sorry I can't be there to say goodbye.
 
 She was a great woman. She never learned to read, yet she raised five children, and every one of them made it from a small village to the city.
 
