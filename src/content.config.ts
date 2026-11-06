@@ -28,6 +28,8 @@ const writing = defineCollection({
     // Link to the original LinkedIn post, if there is one.
     linkedin: z.string().url().optional(),
     draft: z.boolean().default(false),
+    // false = show only on the Writing page, not under "Recent writing" on the home page.
+    home: z.boolean().default(true),
   }),
 });
 

@@ -2,6 +2,7 @@
 title: "In Memory of Grandma"
 date: 2026-11-05
 category: Life Updates
+home: false
 ---
 
 My grandma passed away today. She was 93. She had been very weak for over a year, but in the end she left peacefully, without much pain.

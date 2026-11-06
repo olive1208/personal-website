@@ -81,7 +81,7 @@ linkedin: https://www.linkedin.com/posts/...   # delete this line if it was not 
 Your post here. Paste the text from LinkedIn and add headings or links if you like.
 ```
 
-Posts are sorted newest first. The 3 newest show on the home page. Add `draft: true` to hide a post while you work on it.
+Posts are sorted newest first. The 3 newest show on the home page. Add `draft: true` to hide a post while you work on it. Add `home: false` to keep a post off the home page and show it only on the Writing page.
 
 ## Add a new writing category
 
